@@ -27,6 +27,7 @@ function summarizeUser(userName, userAge, userHasHobby){
 
 console.log(summarizeUser(name, age, hasHobbies));
 
+// annonymous function
 const summarizeUser2 = function (userName, userAge, userHasHobby){
 	return('Name2 is ' + userName);
 };
