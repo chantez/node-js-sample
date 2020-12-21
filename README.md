@@ -20,8 +20,44 @@ packages
 nodemon
 	actualiza server cuando hay cambios en el código
 	$ npm install nodemon --save-dev 
+	$ npm install nodemon --save
+
+express.js
+	. es un package (framework)
+	. https://expressjs.com/en/starter/installing.html
+	. middleware: trabaja con request y responses elegantemente
+	. provee routing
+	. retorna html pages
+	. opciones: Vanilla Node.js, Adonis.js (laravel inspired), Koa, Sails.js
+	$ npm install --save express
+
+Body parser
+	$ npm install --save body-parser
+
+Pug
+	. https://pugjs.org/api/getting-started.html
+	$ npm install --save ejs pug express-handlebars
+
+Handlebars
+	$ npm install --save express-handlebars@3.0
 
 -------------------------------------------------
+
+Template engines
+	- EJS
+		<p><%= name %></p>
+		- use normal html and plain javascript in templates
+	- Pug (Jade)
+		p #{name}
+		use minimal html and custom template language
+	- Handlebars
+		<p>{{ name }}</p>
+		. use normal html and custom template language
+
+MVC
+	- separa Models, views y controllers
+	- Routes son Controllers
+		- Controllers are split across Middleware Functions
 
 package-lock.json contiene las versiones de las dependencias.
 	- si queremos bloquear la actualización de dependencias o que no se usa otra más nuevo. Entonces comitear.
@@ -33,6 +69,8 @@ types of erros
 
 
 -------------------------------------------------
+
+
 
 Node js está construído sobre V8 (javascript engine created by google)
 	- el engine toma el código javascript, lo compila en machine code.

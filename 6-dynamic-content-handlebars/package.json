@@ -1,0 +1,22 @@
+{
+  "name": "6-dynamic-content-handlebars",
+  "version": "1.0.0",
+  "description": "test package",
+  "main": "86-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon 86-app.js",
+    "start-server": "node 86-app.js"
+  },
+  "author": "hp",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2",
+    "pug": "^3.0.0"
+  }
+}
